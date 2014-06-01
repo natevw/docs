@@ -62,6 +62,7 @@ gpio.analog.map(function (pin, i) {
 })
 ```
 
+For more information on reading and writing on Analog Pins, see [our Analog Pin Examples](examples/analogPins.md).
 
 Ports A, B, C, and D have 3 digital pins which can be addressed as such:  
 
@@ -80,7 +81,6 @@ tessel.port['A'].pin['G1']; // this is the same as digital[0]
 tessel.port['A'].pin['G2']; // this is the same as digital[1]
 tessel.port['A'].pin['G3']; // this is the same as digital[2]
 ```
-
 
 &#x20;<a href="#api-string-port-id" name="api-string-port-id">#</a> <i>string</i>&nbsp; port<b>.id</b>  
 The unique ID of this port. On Tessel, this would be one of `"A"`, `"B"`, `"C"`, `"D"`, or `"GPIO"`.
