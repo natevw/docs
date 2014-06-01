@@ -308,7 +308,7 @@ Data that arrives over the UART channel is sent as a Node.js stream.
 
 &#x20;<a href="#api-sleep" name="api-sleep">#</a> tessel<b>.sleep</b> ( ms )  Stop executing code for `ms` number of milliseconds.
 
-&#x20;<a href="#api-deviceId" name="api-deviceId">#</a> tessel<b>.deviceId</b> (  )  Get the Inique ID of your Tessel.
+&#x20;<a href="#api-deviceId" name="api-deviceId">#</a> tessel<b>.deviceId</b> (  )  Get the unique ID of your Tessel.
 
 ## License
 
