@@ -52,7 +52,7 @@ setInterval(function () {
 ## Writing an Analog value
 ```.js
 /* 
- Ramps up a digital signal until it's at max voltage
+ Ramps up a analog signal until it's at max voltage
  then starts back at 0V.
 */
 var tessel = require('tessel');
